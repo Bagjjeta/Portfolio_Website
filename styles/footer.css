@@ -1,0 +1,39 @@
+﻿footer {
+    width: 100vw;
+    height: 7vh;
+    margin-top: -2px;
+}
+
+#footer {
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+#footer span {
+    font-family: 'Figtre', sans-serif;
+    color: white;
+}
+
+.footer_button {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-color: var(--bright_blue);
+    border-radius: 50%;
+    transform: scale(1.4) translateX(65vw) translateY(-3.9vh);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer_button:hover {
+    background-color: var(--yellow);
+}
+
+footer a {
+    width: 0;
+    height: 0;
+    display: flex;
+}

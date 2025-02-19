@@ -1,0 +1,73 @@
+﻿#contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--black_grey);
+}
+
+.contact_container {
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bright_blue);
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+.contact_span {
+    font-family: 'Bungee', sans-serif;
+    font-size: 35px;
+    color: var(--bright_red);
+    text-shadow: 1px 1px 0px black, 
+        -1px 1px 0px black, 
+         1px -1px 0px black, 
+        -1px -1px 0px black;
+    margin-top: 22vh;
+    transform: translateY(-7vh);
+}
+
+.contact_element {
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    border-radius: 20px;
+}
+
+.contact_element span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.contact_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_icon {
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: var(--black);
+}
+
+.contact_container a {
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+
+.contact_container a:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,53 @@
+﻿#mainHeader {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black_grey);
+    position: relative;
+    z-index: 10;
+}
+
+.welcome {
+    width: 570px;
+    height: 80px;
+    padding-left: 10vh;
+    position: absolute;
+    transform: translateY(40vh);
+}
+
+.welcome span {
+    display: inline-block;
+    color: var(--yellow);
+    font-size: 50px;
+    font-family: "Paytone One", sans-serif;
+    text-shadow: 1px 1px 0px black, 
+        -1px 1px 0px black, 
+         1px -1px 0px black, 
+        -1px -1px 0px black;
+    opacity: 0;
+    animation: slide 4s ease-in-out forwards;
+}
+
+.welcome span:hover{
+    animation: hide 0.5s ease-in-out forwards; 
+}
+
+.picture {
+    width: 26vw;
+    height: 65vh;
+    transform: translateX(45vw) translateY(20vh);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture img{
+    width: 5vw;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    animation: flip 2s ease-in-out forwards;
+}
+
+.picture img:hover {
+    animation: hide 0.5s ease-in-out forwards;
+}

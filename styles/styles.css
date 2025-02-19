@@ -1,0 +1,45 @@
+﻿@import "./navigation.css";
+@import "./header.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./scrollbar.css";
+@import "./animations.css";
+@import "./animations_delays.css";
+@import "./responsive.css";
+
+:root {
+    --green: #339966;
+    --black_grey: #262626;
+    --black: #0E0E0E;
+    --green_blue: #579b8e;
+    --yellow: #DEB51F;
+    --grey: #848484;
+    --bright_blue: #83ddff;
+    --dark_blue: #071435;
+    --bright_red: #ff8282;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    margin-top: -2px;
+    padding: 0;
+}
